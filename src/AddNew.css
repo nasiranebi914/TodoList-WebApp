@@ -1,0 +1,30 @@
+.app__todos{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    width: 500px;
+    height: 450px;
+}
+.app__todo{
+    background-color: rgba(250, 156, 168, 0.3);
+    margin: 12px;
+    height: 50px;
+    border-radius: 10px;
+}
+.strike {
+    text-decoration: line-through;
+    margin: 13px;
+ }
+.todo{
+    margin: 13px;
+}
+.app__addTask{
+    display: flex;
+    justify-content: space-between;
+}
+.app__input{
+    margin-left: 40px;
+}
+.app__inputForm{
+    margin-top: 20px;
+}
+
